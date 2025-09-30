@@ -137,6 +137,6 @@ if __name__ == "__main__":
     if DISCORD_BOT_TOKEN == "YOUR_DISCORD_BOT_TOKEN" or TARGET_CHANNEL_ID == 123456789012345678:
         print("エ ラ ー : Discord Botの ト ー ク ン ま た は チ ャ ン ネ ル IDが 設 定 さ れ て い ま せ
 ん 。 ")
-        print("`wplace/discord_bot.py`フ ァ イ ル を 編 集 し て 、 DISCORD_BOT_TOKENと TARGET_CHANNEL_IDを 設 定 し て く だ さ い 。 ")
+        print("`discord_bot.py`フ ァ イ ル を 編 集 し て 、 DISCORD_BOT_TOKENと TARGET_CHANNEL_IDを 設 定 し て く だ さ い 。 ")
     else:
         client.run(DISCORD_BOT_TOKEN)
